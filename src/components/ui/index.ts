@@ -1,0 +1,9 @@
+// npx shadcn@latest add button
+// npx shadcn@latest add checkbox
+// npx shadcn@latest add dialog
+// npx shadcn@latest add drawer
+// npx shadcn@latest add input
+// npx shadcn@latest add popover
+// npx shadcn@latest add select
+// npx shadcn@latest add skeleton
+// npx shadcn@latest add slider
