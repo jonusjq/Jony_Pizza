@@ -4,6 +4,8 @@ import * as React from "react";
 import Image from "next/image";
 import { Button } from "../ui";
 import { User } from "lucide-react";
+import { ShoppingCart } from "lucide-react";
+import { Search } from "lucide-react";
 
 
 interface Props {
@@ -22,12 +24,12 @@ export const Header: React.FC<Props> = ({ className }) => {
           </div>
         </div>
         {/* левая часть */}
-        <div className="flex"> 
-            <Button variant="outline">
-            <User />профиль
+        <div className="flex width-25">
+            <Button variant="outline" className="mr-4">
+            <User width={20} height={20} />профиль
             </Button>
             <Button variant="outline">
-            <User />профиль
+            <ShoppingCart />
             </Button>
         </div>
       </Container>
