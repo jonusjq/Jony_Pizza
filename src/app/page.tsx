@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui";
-import { Categories, Title, TopBar } from "@/components/shared";
+import { Categories, Title, SortPopup, TopBar } from "@/components/shared";
 import { Container } from "@/components/shared"; 
 import { Filters } from "@/components/shared/filters";
 
@@ -9,10 +9,9 @@ export default function Home() {
     <>
       <Container className="mt-10">
         <Title text="Все пиццы" size="lg" className="font-black" />
-        <Categories />
       </Container>
+      <TopBar/>
 
-      <TopBar />
 
 
       <Container className="pb-14">
